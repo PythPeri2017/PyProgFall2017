@@ -1,0 +1,20 @@
+amin = "Мороз и солнце - день чудесный. Еще ты дремлешь, мороз прелестный?"
+print(amin[1])
+print(amin[-2])
+print(amin[8:14])
+print(amin[:6])
+print(amin[14:])
+print(amin[:])
+print(amin[:14:2])
+print(amin[13::-1])
+
+print(len(amin))
+print(amin.lower())
+print(amin.upper())
+print(amin.title())
+
+print(amin.find("друг"))
+print(amin.rfind("д"))
+print(amin.replace("друг", "крюк"))
+print(amin.count("мороз"))
+print(amin.lower().count("мороз"))
