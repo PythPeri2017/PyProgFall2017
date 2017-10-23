@@ -35,7 +35,7 @@ def step(car):
 
 	stats(car)
 	input()
-	
+
 
 track = 50
 
