@@ -1,7 +1,8 @@
 class Laze:
-	def __init__(self, level, long_sleep):
+	def __init__(self, level, long_sleep, age):
 		self.__level = level
 		self.__long_sleep = long_sleep
+		self.age = age
 
 	def sleep(self):
 		print(self.long_sleep*"ZZZZzzzzzz")
@@ -23,13 +24,14 @@ class Laze:
 		print('Нельзя меня будить!')
 
 
-kamil = Laze(80,24*7)
+kamil = Laze(80,24*7,1000)
 # kamil.sleep()
 # print(kamil._Laze__long_sleep)
 # kamil.long_sleep = 8
 # print(kamil.long_sleep)
 print(kamil.level)
 kamil.level = 10
+print(kamil.age)
 # print(kamil.level)
 
 
