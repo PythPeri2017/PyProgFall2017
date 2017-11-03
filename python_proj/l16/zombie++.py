@@ -44,7 +44,6 @@ def choice_weapon():
 	elif i == 3:
 		rifle = Guns(20, 30)
 
-
 def game():
 	count_kill = 0
 	sidor = Player(125, 20, 3)
@@ -52,7 +51,11 @@ def game():
 	while True:
 		try:
 			choice_weapon()
+		except:
+			print("Нет такого оружия")
+		else:
 			sidor.attack(zombie)
+			input()
 			zombie.attack(sidor)
 			input()
 			if zombie.health <= 0:
@@ -70,8 +73,5 @@ def game():
 				print("Сидорович умудрился замочить", count_kill,
 					"и пал смертью храбрых, теперь сталкерам некому нести хабар")
 				break
-		except:
-			print("Такого оружия в рюкзаке нет.")
-		finally:
-			print("Попробуй еще раз")
+
 game()
