@@ -1,0 +1,6 @@
+{
+	"login": "lukman_igroman",
+	"Address": "Shamily's st. 49",
+	"Phone number": "8-(989)-457-05-81",
+	"Product": "ћ€ч дл€ баскета"
+} 

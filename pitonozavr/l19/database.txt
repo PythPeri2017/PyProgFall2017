@@ -1,0 +1,7 @@
+{
+	"Login": "Chiter228",
+	"Address": "Akushinskogo st.30",
+	"Phone_Number": "8-800-355-55-55",
+	"Product": "Iphone X",
+	"Price": "999$"
+}{"Login": "Sabir", "Address": "Canning Town", "Phone number": "458", "Product": "GorGorod", "Price": "priceless"}
