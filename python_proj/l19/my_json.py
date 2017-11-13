@@ -1,18 +1,15 @@
 import json
 
-class pObj(object):
-	pass
+content = {}
+content["log"] = "Aslan_lion"
+content["pass"] = "12345"
 
-myJson = pObj()
-myJson.content = {}
-myJson.content["log"] = "Aslan_lion"
-myJson.content["pass"] = "12345"
+f = open("database2.txt","w")
 
-f = open("database2.txt","a")
-
-json.dump(myJson.content, f)
+json.dumps(content, f)
 f.close()
 f = open("database2.txt","r")
-jObj = json.load(f)
+
+jObj = json.loads(f)
 print(jObj["log"])
 f.close()
