@@ -16,6 +16,10 @@ curok.execute("INSERT INTO List_of_worker VALUES(1,'Ivanov','Ivan','Director',5)
 curok.execute("INSERT INTO List_of_worker VALUES(2,'Petrov','Petr','Accountant',3)")
 curok.execute("INSERT INTO List_of_worker VALUES(3,'Zulpicarov','Ruslan','HR manager',4)")
 curok.execute("INSERT INTO List_of_worker VALUES(4,'Magomedov','Shamil','Senior Python Developer',7)")
+curok.execute("INSERT INTO List_of_worker VALUES(5,'Ataev','Vladimir','Senior Python Developer',6)")
+curok.execute("INSERT INTO List_of_worker VALUES(6,'Aigumov','Gadji','Senior Python Developer',5)")
+
+
 
 descriptor.commit()
 curok.close()
