@@ -1,0 +1,3 @@
+title=MagicPiano
+author=Abduragim
+orientation=landscape
