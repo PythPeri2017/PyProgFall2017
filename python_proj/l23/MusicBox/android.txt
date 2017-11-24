@@ -1,0 +1,3 @@
+title=MusicBox
+author=WE
+orientation=landscape
