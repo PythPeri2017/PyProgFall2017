@@ -4,7 +4,7 @@ TOKEN = "407705344:AAHPXFofcPZlBF2xCFHCXRAbu2vs99_f4CU"
 
 bot = telebot.TeleBot(TOKEN)
 
-@bot.message_handler(commands="hello")
+@bot.message_handler(commands=["hello"])
 def answer(message):
 	bot.send_message(message.chat.id, "Ваалейкум привет")
 
