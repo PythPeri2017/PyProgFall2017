@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Second lesson:form's</title>
+</head>
+<body>
+	<form>
+		<input type="text" name="username" placeholder="Введите имя" size="30"><br>
+		<input type="password" name="userpass" placeholder="Введите пароль" size="30"><br>
+		<label for="userinfo">Введите информацию о себе:</label><br>
+		<textarea cols="50" rows="10" name="userinfo"></textarea><br>
+		<input type="reset"><br>
+		Дата рождения:
+		<input type="date" name="userdate"><br>
+		Стаж:
+		<input type="number" min="10"><br>
+		<br>
+		Ваш пол:
+		<input type="radio" name="usergender" value="men">Муж
+		<input type="radio" name="usergender" value="women">Жен<br>
+		Знание языков:<br>
+		<input type="checkbox">Английский<br>
+		<input type="checkbox">Испанский<br>
+		<input type="checkbox">Итальянский<br>
+		<input type="checkbox">Французский<br>
+		<input type="checkbox">Немецкий<br>
+		Выберите расу:
+		<select>
+			<option>Люди</option>
+			<option>Эльфы</option>
+			<option>Гномы</option>
+			<option>Орки</option>
+		</select><br>
+		<input type="file" name="userphoto">
+		<input type="submit" value="Создать аккаунт">
+	</form>
+</body>
+</html>
