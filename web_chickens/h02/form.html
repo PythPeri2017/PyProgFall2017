@@ -3,19 +3,23 @@
 <head>
 	<title>Second lesson: make a form's</title>
 </head>
-<body>
+<body background="photo.jpg">
 	<form action="index.php">
 		<p><input type="text" name="username" size="30" value="Введите имя"></p>
-		
-		<input type="text" name="usersurname" size="30" value="Введите фамилию">
-
 		<p>Введите пароль</p>
 		<p><input type="password" name="userpass" size="30"></p>
 
+		<p>Введите дату рождения:</p>
+		<input type="date" name="userdate" size="30">
+
+		<p>Введите свой электронный адрес:</p>
+		<input type="email" name="usermail" size="30">
+
 		<p>Введите информацию о себе:</p>
-		<textarea name="usercomm" cols="50" rows="10"></textarea>
-		<p><input type="submit" name="usersub" value="Ввод"></p>
-		<p><input type="button" name="usersub" value="Ввод"></p>
+		<textarea name="usercomm" cols="50" rows="10"></textarea><br>
+		<input type="submit" name="usersub" value="Ввод">
+		<input type="button" name="usersub" value="Обработать">
+		<input type="reset" name="usersub" value="Стереть">
 
 		<p>Ваш пол:</p>
 		<input type="radio">Муж
@@ -26,6 +30,15 @@
 		<p><input type="checkbox">Французский</p>
 		<p><input type="checkbox">Испанский</p>
 		<p><input type="checkbox">Немецкий</p>
+
+		<p>Выберите вашу расу:</p>
+		<select>
+			<option>Человеки</option>
+			<option>Эльфы</option>
+			<option>Гномы</option>
+			<option>Орки</option>
+		</select>
+		<p><input type="file"></p>
 	</form>
 </body>
 </html>
