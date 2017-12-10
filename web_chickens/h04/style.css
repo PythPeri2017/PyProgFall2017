@@ -1,0 +1,9 @@
+p {
+	background-color: #6eff00;
+	width: 500px;
+}
+
+#first_block {
+	height: 200px;
+	text-decoration: line-through;
+}

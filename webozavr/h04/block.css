@@ -1,0 +1,10 @@
+.block {
+	box-sizing: border-box;
+	width: 100px;
+	height: 100px;
+	background-color: wheat;
+	margin: 20px 40px 60px 80px;
+	margin-left: 50px;
+	padding: 3px 7px;
+	border: 2px solid aquamarine;
+}
