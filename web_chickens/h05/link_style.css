@@ -1,0 +1,67 @@
+a.link1{
+	display: block;
+	background-image: url(download.png);
+	background-size: cover;
+	height: 20px;
+	width: 60px;
+}
+
+a.link1:link {
+	text-decoration: none;
+	color: red;
+}
+
+a.link1:visited {
+	text-decoration: none;
+	color: red;
+}
+
+a.link1:hover {
+	font-size: 50px;
+	text-decoration: underline;
+	color: red;
+	cursor: text;;
+}
+
+a.link1:active {
+	text-decoration: overline;
+}
+
+a.link2:link {
+	text-decoration: none;
+	color: blue;
+}
+
+a.link2:visited {
+	text-decoration: none;
+	color: blue;
+}
+
+a.link2:hover {
+	font-size: 50px;
+	text-decoration: underline;
+	color: blue;
+}
+
+a.link2:active {
+	text-decoration: overline;
+}
+a.link3:link {
+	text-decoration: none;
+	color: #A020F0;
+}
+
+a.link3:visited {
+	text-decoration: none;
+	color: #A020F0;
+}
+
+a.link3:hover {
+	font-size: 50px;
+	text-decoration: underline;
+	color: #A020F0;
+}
+
+a.link3:active {
+	text-decoration: overline;
+}

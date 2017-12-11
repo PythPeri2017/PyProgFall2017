@@ -1,0 +1,22 @@
+body{
+	background-image:url(photo.jpg);
+	background-size: cover;
+}
+div{
+	color:red;
+	margin: auto;
+	text-align: center;
+	height: 50px;
+	border-width: 2px;
+	padding: 40px;
+	box-sizing: border-box; 
+}
+.a{
+	color: blue;
+	background-color: black;
+}
+.b{
+	color: yellow;
+	background-color: red;
+	margin-top: 250px;
+}
