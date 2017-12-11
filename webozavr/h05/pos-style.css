@@ -1,0 +1,19 @@
+.pos1 {
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	top: 150px;
+}
+.pos2 {
+	height: 100px;
+	width: 100px;
+	position: relative;
+	left: 150px;
+}
+.pos3 {
+	height: 100px;
+	width: 100px;
+	position: fixed;
+	top: 150px;
+}
+

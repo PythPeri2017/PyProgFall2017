@@ -1,0 +1,23 @@
+body{
+background-image:url(i.jpg);
+background-size:cover;
+
+}
+div.block_blue{
+	box-sizing:border-box;
+	text-align:center; 
+	width:100px;
+	height:40px;
+	margin:auto;
+	background-color: rgba(0, 0, 255, 0.5);
+	color:wheat;
+}
+.block_orange{
+	box-sizing:border-box;
+	text-align:center; 
+	width:100px;
+	height:40px;
+	margin:auto;
+	background-color: rgba(240, 0, 0, 0.5);
+	color: red;
+}
